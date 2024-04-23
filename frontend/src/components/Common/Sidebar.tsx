@@ -93,7 +93,9 @@ const Sidebar = () => {
           borderRadius={12}
         >
           <Box>
-            <Image src={Logo} alt="Logo" w="180px" maxW="2xs" p={6} />
+            <Text>
+              Damda Prototype 
+            </Text>
             <SidebarItems />
           </Box>
           {currentUser?.email && (
